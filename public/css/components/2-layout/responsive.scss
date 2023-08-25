@@ -1,0 +1,189 @@
+// 1460px
+@include xxxlg-xxxxlg {
+  // base start
+  h1 {
+    font-size: 70px;
+    line-height: 90px;
+  }
+
+  // base end
+  // index start
+  @include intro-xxxlg-xxxxlg;
+  // index end
+}
+// 1380px
+@include xxlg-xxxlg {
+  // base start
+  .auto__container {
+    max-width: 940px;
+  }
+  @include nav-xxlg-xxxlg;
+  @include header-xxlg-xxxlg;
+  @include footer-xxlg-xxxlg;
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  h2 {
+    font-size: 36px;
+    &.big {
+      font-size: 40px;
+    }
+    small {
+      font-size: 28px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    &.big {
+      font-size: 16px;
+    }
+  }
+  // base end
+  // index start
+  @include intro-xxlg-xxxlg;
+  @include feature-xxlg-xxxlg;
+  @include finance-xxlg-xxxlg;
+  @include steps-xxlg-xxxlg;
+  @include roadmap-xxlg-xxxlg;
+  @include team-xxlg-xxxlg;
+  // index end
+}
+// 1240px
+@include xlg-xxlg {
+  // base start
+  @include nav-xlg-xxlg;
+  @include header-xlg-xxlg;
+  .auto__container {
+    padding: 0 20px;
+  }
+
+  // base end
+  // index start
+  @include intro-xlg-xxlg;
+  @include roadmap-xlg-xxlg;
+  @include feature-xlg-xxlg;
+  @include finance-xlg-xxlg;
+  @include steps-xlg-xxlg;
+  @include team-xlg-xxlg;
+  // index end
+}
+// 1024px
+@include lg-xlg {
+  // base start
+  @include nav-lg-xlg;
+  @include header-lg-xlg;
+  @include footer-lg-xlg;
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  // base end
+  // index start
+  @include intro-lg-xlg;
+  @include roadmap-lg-xlg;
+  @include team-lg-xlg;
+  @include steps-lg-xlg;
+  // index end
+}
+// 840px
+@include md-lg {
+  // base start
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 30px;
+    &.big {
+      font-size: 36px;
+    }
+    small {
+      font-size: 24px;
+    }
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .button {
+    &.purple {
+      font-size: 14px;
+      padding: 12px 20px;
+    }
+    &.orange {
+      font-size: 14px;
+      padding: 12px 20px;
+    }
+  }
+  // base end
+  // index start
+  @include intro-md-lg;
+  @include roadmap-md-lg;
+  @include feature-md-lg;
+  @include steps-md-lg;
+  // index end
+}
+// 700px
+@include sm-md {
+  // base start
+  @include footer-sm-md;
+  h2 {
+    font-size: 26px;
+    &.big {
+      font-size: 26px;
+    }
+    small {
+      font-size: 20px;
+    }
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 14px;
+  }
+  // base end
+  // index start
+  @include finance-sm-md;
+  @include team-sm-md;
+  @include roadmap-sm-md;
+
+  // index end
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 36px;
+
+    line-height: 42px;
+  }
+  @include intro-xsm-sm;
+  @include roadmap-xsm-sm;
+  @include team-xsm-sm;
+  @include steps-xsm-sm;
+}
+// 380px
+@include xxsm-xsm {
+  // base start
+  @include footer-xxsm-xsm;
+  // base end
+  // index start
+  @include team-xxsm-xsm;
+  @include steps-xxsm-xsm;
+
+  // index end
+}
