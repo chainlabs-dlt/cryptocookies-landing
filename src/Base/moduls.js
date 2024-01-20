@@ -2,50 +2,32 @@ export const teamList = [
   {
     id: "1",
     name: "Alexis Schlomer",
-    prof: "Founder",
+    prof: "Protocol",
     image: "/images/team/1.jpg",
-    about: (
-      <>
-        MSc in Computer <br /> Science @ CMU <br /> Protocol Architect
-      </>
-    ),
   },
   {
     id: "2",
     name: "Emilien Duc",
-    prof: "CEO",
+    prof: "Protocol",
     image: "/images/team/2.jpg",
-    about: (
-      <>
-        MSc in Cybersecurity <br /> @ ETH <br /> Tech Lead
-      </>
-    ),
   },
   {
     id: "3",
     name: "Michael Zuber",
-    prof: "COO",
+    prof: "Marketing",
     image: "/images/team/3.jpg",
-    about: <>Chartered Specialist in Accounting & Financial Management</>,
   },
   {
     id: "4",
     name: "Sébastien Schlomer",
-    prof: "CFO",
+    prof: "Finance",
     image: "/images/team/4.jpg",
-    about: (
-      <>
-        MSc in Finance @ HEC <br /> Lausanne <br />
-        International Tax Specialist
-      </>
-    ),
   },
   {
     id: "5",
     name: "Dimitri Cordenier",
-    prof: "Advisor",
+    prof: "Operations",
     image: "/images/team/5.jpg",
-    about: <>MSc in Engineering @ EPFL Tech & Management Consulting Manager</>,
   },
 ];
 export const roadmapList = [
@@ -58,31 +40,30 @@ export const roadmapList = [
   },
   {
     id: "2",
-    quarter: "Q4 2023",
+    quarter: "Q1 2024",
     title: "Testnet (Beta)",
     text: [
-      "Deployment of the initial version of CryptoCookies on the Polygon testnet.",
+      "Deployment of Beta version of CryptoCookies on the Polygon testnet.",
     ],
-    passed: false,
+    passed: true,
   },
   {
     id: "3",
-    quarter: "Q3 2024",
+    quarter: "Q4 2024",
     title: "Mainnet (V1)",
     text: [
-      "Launch of CryptoCookies on the Polygon PoS network.",
-      "Rollout of the Fudge Finance protocol on the Ethereum mainnet.",
+      "Launch of CryptoCookies V1 on Polygon.",
+      "Rollout of Fudge Finance Beta on Ethereum.",
     ],
     passed: false,
   },
   {
     id: "4",
-    quarter: "Q1 2025",
+    quarter: "Q2 2025",
     title: "Mainnet (V2)",
     text: [
-      "CryptoCookies’ competition system enhanced with NFTs.",
-      "Possibilities to customize the interface through collectibles and lore enrichment.",
-      "Launch of Fudge Finance front-end.",
+      "CryptoCookies' ecosystem expanded for a V2.",
+      "Deployment of Fudge Finance V1 with an accessible front-end.",
     ],
     passed: false,
   },

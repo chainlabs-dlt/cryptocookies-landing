@@ -52,9 +52,10 @@ export default function Header() {
               <Link to="" className="nav__inner-link">
                 Documentation
               </Link>
-              <Link to="" className="nav__inner-link">
+              <button type="button" className="nav__inner-link soon">
                 Whitepaper
-              </Link>
+                <span>Coming Soon</span>
+              </button>
               <button type="button" className="nav__inner-link soon">
                 Seed Round
                 <span>Coming Soon</span>
@@ -68,8 +69,12 @@ export default function Header() {
           >
             <span></span>
           </button>
-          <button type="button" className="button soon">
-            Alpha Coming Soon
+          <button 
+            type="button"
+            className="button orange"
+            onClick={() => window.open('https://app.cryptocookies.wtf', '_blank')}
+          >
+            Launch Beta!
           </button>
         </div>
       </div>
