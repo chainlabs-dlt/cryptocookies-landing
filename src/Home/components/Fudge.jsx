@@ -64,10 +64,11 @@ export default function Fudge({ width }) {
               capital efficiency.
             </p>
             <Link
-              to="/"
+              to="https://cryptocookies.gitbook.io/documentation/fudge-finance"
               className="button purple  wow animate__fadeIn"
               data-wow-duration={anime ? ".5s" : ".8s"}
               data-wow-delay={anime ? ".2s" : ".5s"}
+              target="_blank"
             >
               Learn More
             </Link>{" "}

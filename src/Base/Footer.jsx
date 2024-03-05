@@ -32,17 +32,15 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer__inner-nav">
-            <Link to="">Documentation</Link>
+            <Link to="https://cryptocookies.gitbook.io/documentation/" target="_blank">Documentation</Link>
             <Link to="">Whitepaper</Link>
             <Link to="">Seed Round</Link>
-            <Link to="">Disclaimer</Link>
+            <Link to="https://cryptocookies.gitbook.io/documentation/disclaimer" target="_blank">Disclaimer</Link>
           </div>
           <div className="footer__inner-socials">
-            <a href="https://www.facebook.com">{githubIcon}</a>
-            <a href="https://www.twitter.com">{twitterIcon}</a>
-            <a href="https://www.linkedin.com">{linkedIcon}</a>
-            <a href="https://www.discord.com">{discordIcon}</a>
-            <a href="https://www.telegram.com">{telegramIcon}</a>
+            <a href="https://github.com/chainlabs-dlt">{githubIcon}</a>
+            <a href="https://twitter.com/Web3Cookies">{twitterIcon}</a>
+            <a href="https://discord.gg/tQ3vEcK4">{discordIcon}</a>
           </div>
         </div>
       </div>

@@ -64,7 +64,11 @@ export default function Intro({ width }) {
               data-wow-duration={anime ? ".5s" : ".8s"}
               data-wow-delay={anime ? ".2s" : ".6s"}
             >
-              <span>Learn More</span>
+              <span
+                onClick={() => window.open('https://cryptocookies.gitbook.io/documentation/', '_blank')}
+              >
+                Learn More
+              </span>
             </div>
           </div>
         </div>

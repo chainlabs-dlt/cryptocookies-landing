@@ -49,7 +49,7 @@ export default function Header() {
           </Link>
           <nav className={"nav " + (menu ? "active" : "")} onClick={close}>
             <div className="nav__inner">
-              <Link to="" className="nav__inner-link">
+              <Link to="https://cryptocookies.gitbook.io/documentation/" target="_blank" className="nav__inner-link">
                 Documentation
               </Link>
               <button type="button" className="nav__inner-link soon">

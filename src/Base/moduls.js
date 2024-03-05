@@ -14,7 +14,7 @@ export const teamList = [
   {
     id: "3",
     name: "Michael Zuber",
-    prof: "Marketing",
+    prof: "Administration",
     image: "/images/team/3.jpg",
   },
   {
