@@ -72,7 +72,7 @@ export default function Header() {
           <button 
             type="button"
             className="button orange"
-            onClick={() => window.open('https://app.cryptocookies.wtf', '_blank')}
+            onClick={/*() => window.open('https://app.cryptocookies.wtf', '_blank')*/}
           >
             Launch Beta!
           </button>
